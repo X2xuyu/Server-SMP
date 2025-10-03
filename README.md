@@ -1,0 +1,2 @@
+# Server-BlackSMP
+Minecraft server
