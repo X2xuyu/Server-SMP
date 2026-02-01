@@ -3,7 +3,6 @@
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.4-brightgreen)](#)
 [![Server](https://img.shields.io/badge/Server-Purpur-7f5af0)](#)
 [![Java](https://img.shields.io/badge/Java-21-blue)](#)
-[![OS](https://img.shields.io/badge/OS-Windows%2011-informational)](#)
 [![Plugins](https://img.shields.io/badge/Plugins-21-orange)](#)
 [![Status](https://img.shields.io/badge/Type-SMP%20%7C%20Survival-success)](#)
 
