@@ -1,0 +1,185 @@
+# Configuration version - Do not modify this value
+config_version: 1.3.4
+
+# TIME FORMAT GUIDE
+# Simple formats: 20s (20 seconds), 5m (5 minutes), 1h (1 hour)
+# Complex format: 1d_2h_30m_15s (1 day, 2 hours, 30 minutes, 15 seconds)
+# Units: s = seconds, m = minutes, h = hours, d = days, w = weeks, mo = months, y = years
+
+# ADDING CUSTOM LANGUAGE
+# 1. Create a new folder in the language directory
+# 2. Use the files from en_US folder as a template
+# 3. Modify those files as needed (messages.yml, formatting.yml,...)
+# 4. Set language to your custom folder name
+
+# ---------------------------------------------------
+#               Language Settings
+# ---------------------------------------------------
+# Language setting (available: en_US, vi_VN, it_IT)
+language: en_US
+
+# Enable or disable debug mode (provides verbose console output)
+debug: false
+
+# ---------------------------------------------------
+#             Core Spawner Properties
+# ---------------------------------------------------
+# These settings control the fundamental behavior of all spawners
+spawner_properties:
+  default:
+    # Spawn Parameters - Controls mob generation frequency and amounts
+    min_mobs: 1 # Minimum mobs spawned per cycle
+    max_mobs: 4 # Maximum mobs spawned per cycle
+    range: 16 # Player proximity required for activation (in blocks)
+    delay: 25s # Base delay between spawn cycles (see time format guide above)
+    
+    # Storage Settings - Defines internal inventory capacity
+    max_storage_pages: 3 # Each page provides 45 inventory slots
+    max_stored_exp: 100000000 # Maximum experience points that can be stored
+    max_stack_size: 1000000 # Maximum number of spawners that can be stacked
+    
+    # Behavior Settings - Controls special spawner functionality
+    allow_exp_mending: true # Allow spawners to repair items with stored XP
+    protect_from_explosions: true # Protect spawner blocks from explosion
+
+# ---------------------------------------------------
+#           Spawner Breaking Mechanics
+# ---------------------------------------------------
+# Controls how players can break and collect spawners
+spawner_break:
+  enabled: true # Master switch for spawner breaking feature
+  
+  # Whether to directly add spawner items to player inventory instead of dropping them on the ground
+  direct_to_inventory: false
+  
+  # Tool Requirements - Which tools can break spawners
+  required_tools:
+  - IRON_PICKAXE
+  - GOLDEN_PICKAXE
+  - DIAMOND_PICKAXE
+  - NETHERITE_PICKAXE
+  
+  # Durability impact on tools when breaking a spawner
+  durability_loss: 0.001 # Number of durability points deducted
+  
+  # Enchantment Requirements for successful spawner collection
+  silk_touch:
+    required: true # Whether Silk Touch is needed to obtain spawners
+    level: 1 # Minimum level of Silk Touch required
+
+# ---------------------------------------------------
+#               Natural Spawner Settings
+# ---------------------------------------------------
+# Controls behavior of naturally generated dungeon spawners
+natural_spawner:
+  breakable: false # Whether vanilla/natural spawners can be broken and converted into smart spawner
+
+# ---------------------------------------------------
+#             Shop Integration Settings
+# ---------------------------------------------------
+# For selling of items from spawner with prices from the shop plugin
+shop_integration:
+  enabled: true
+  # Supported shop plugins: auto, EconomyShopGUI, EconomyShopGUI-Premium, ShopGUIPlus, zShop
+  # 'auto' will attempt to detect your installed shop plugin automatically
+  type: auto
+
+# Transaction cooldown to prevent abuse
+sell_cooldown:
+  enabled: true
+  duration: 3s # Time between allowed transactions (see time format guide above)
+
+# Economy taxation system for spawner sales
+tax:
+  enabled: false # Apply tax to spawner sales
+  percentage: 10.0 # Percentage of sale value taken as tax
+
+# Transaction logging for security and monitoring
+log_transactions:
+  enabled: false
+  file_path: logs/shop_transactions.log # Path relative to plugin directory
+
+# ---------------------------------------------------
+#             Custom Sell Prices Settings
+# ---------------------------------------------------
+# For adding custom sell prices for items without requiring a shop plugin
+# NOTE: If 'custom_sell_prices' is enabled, 'shop_integration' will be disabled
+custom_sell_prices:
+  # Enable or disable custom sell prices system
+  enabled: false
+  
+  # Economy system to use for handling transactions
+  # Supported options: VAULT (more options will be added in the future)
+  currency: VAULT
+  
+  # Default sell price for items not specifically listed in item_prices.yml
+  default_price: 1.0
+
+# ---------------------------------------------------
+#              Item Collection System
+# ---------------------------------------------------
+# Configuration for automated item collection
+hopper:
+  # Need a full server restart to apply changes to this setting
+  enabled: false
+  check_delay: 3s # Time between collection checks (see time format guide above)
+  stack_per_transfer: 5 # Number of item stacks transferred in one operation (max 5)
+
+# ---------------------------------------------------
+#                 Visual Effects
+# ---------------------------------------------------
+# Configure visual indicators and effects for spawners
+hologram:
+  enabled: false # Show floating text above spawners
+  
+  # Hologram Text Display (supports color codes)
+  # Available placeholders:
+  # %entity% - Type of mob
+  # %stack_size% - Number of stacked spawners
+  # %current_exp% - Current stored XP
+  # %max_exp% - Maximum XP capacity
+  # %used_slots% - Used inventory slots
+  # %max_slots% - Total inventory slots
+  text:
+  - '[&#f8f8ff%stack_size%] &#7b68ee%ᴇɴᴛɪᴛʏ% ꜱᴘᴀᴡɴᴇʀ'
+  - '&#ab7afd• &#e6e6faxᴘ: &#37eb9a%current_exp%&#f8f8ff/&#37eb9a%max_exp%'
+  - '&#ab7afd• &#e6e6faɪᴛᴇᴍꜱ: &#37eb9a%used_slots%&#f8f8ff/&#37eb9a%max_slots%'
+  
+  # Position Offset from spawner block center
+  offset_x: 0.5
+  offset_y: 1.6
+  offset_z: 0.5
+  
+  # Display Settings
+  alignment: CENTER # Text alignment (CENTER, LEFT, or RIGHT)
+  shadowed_text: true # Apply shadow effect to text
+  see_through: false # Text visible through blocks
+
+# Particle effect toggles for visual feedback
+particle:
+  spawner_stack: true # Show effects when spawners are stacked
+  spawner_activate: true # Show effects when spawner activates
+  spawner_generate_loot: true # Show effects when items are generated
+
+# ---------------------------------------------------
+#                 Data Management
+# ---------------------------------------------------
+# Controls how and when spawner data is saved
+data_saving:
+  # Periodic auto-save interval
+  interval: 5m # Time between saves (see time format guide above)
+  
+  # Save spawner data on server shutdown
+  save_on_shutdown: true
+
+# Ghost spawners are error spawners that exist in the world but no longer have a physical spawner block
+# This can happen due to server crashes, chunk corruption, or other issues
+# These settings control how ghost spawners are handled and removed
+ghost_spawners:
+  # Remove ghost spawners when server starts up
+  # Only checks spawners in loaded chunks
+  remove_on_startup: true
+  
+  # Remove ghost spawners when players approach them
+  # This checks when players enter spawner range
+  remove_on_approach: false

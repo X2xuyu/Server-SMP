@@ -1,0 +1,12 @@
+You can disable the logging in the config file
+
+This file logs every player that disconnected during combat
+[2568/05/13 00:41:05] Forzie tried to escape combat! (16s left) | In combat with: [daxkqueue] | World:world, X:76.70, Y:71.00, Z:-5.70
+[2568/05/19 19:55:12] RavenGB4 tried to escape combat! (19s left) | In combat with: [lonza] | World:world, X:-6415.45, Y:81.02, Z:7886.65
+[2568/05/19 20:20:25] RavenGB4 tried to escape combat! (19s left) | In combat with: [lonza] | World:world, X:-6485.20, Y:64.00, Z:7845.57
+[2568/05/20 22:47:50] RavenGB4 tried to escape combat! (19s left) | In combat with: [jziemniaky] | World:world, X:2879.76, Y:30.29, Z:-11235.90
+[2568/05/21 22:47:27] RavenGB4 tried to escape combat! (17s left) | In combat with: [lonza] | World:world, X:-6436.80, Y:72.00, Z:7897.44
+[2568/05/21 22:50:07] RavenGB4 tried to escape combat! (19s left) | In combat with: [lonza] | World:world, X:-6431.30, Y:72.00, Z:7897.30
+[2568/05/21 22:56:33] RavenGB4 tried to escape combat! (19s left) | In combat with: [lonza] | World:world, X:-6426.26, Y:74.00, Z:7898.66
+[2568/05/21 23:16:58] RavenGB4 tried to escape combat! (19s left) | In combat with: [lonza] | World:world, X:-6436.19, Y:77.12, Z:7920.18
+[2568/05/21 23:42:15] RavenGB4 tried to escape combat! (14s left) | In combat with: [lonza] | World:world, X:39.74, Y:70.02, Z:49.64

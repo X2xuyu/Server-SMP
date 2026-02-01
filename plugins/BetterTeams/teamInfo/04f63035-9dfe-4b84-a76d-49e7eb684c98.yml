@@ -1,0 +1,19 @@
+name: Cza
+description: ''
+open: false
+pvp: false
+home: ''
+color: '6'
+chests: []
+players:
+- 708e9e2b-4f00-35b0-8c66-e24c1deac88a,OWNER
+- 6727e02d-ec72-3b1f-9c40-5479980a613c,DEFAULT
+- 801b6cd3-64da-3e30-9cf5-f770186bce60,DEFAULT
+level: 1
+tag: ''
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: TOTEM_OF_UNDYING
+score: 2

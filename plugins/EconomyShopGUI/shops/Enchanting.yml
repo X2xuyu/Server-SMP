@@ -1,0 +1,105 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ENCHANTED_BOOK
+        buy: 10000
+        sell: 500
+        enchantments:
+        - PROTECTION_EXPLOSIONS:4
+      '2':
+        material: ENCHANTED_BOOK
+        buy: 10000
+        sell: 500
+        enchantments:
+        - PROTECTION_FALL:4
+      '3':
+        material: ENCHANTED_BOOK
+        buy: 10000
+        sell: 500
+        enchantments:
+        - PROTECTION_FIRE:4
+      '4':
+        material: ENCHANTED_BOOK
+        buy: 10000
+        sell: 500
+        enchantments:
+        - PROTECTION_PROJECTILE:4
+      '5':
+        material: ENCHANTED_BOOK
+        buy: 10000
+        sell: 500
+        enchantments:
+        - PROTECTION_ENVIRONMENTAL:4
+      '6':
+        material: ENCHANTED_BOOK
+        buy: 20000
+        sell: 500
+        enchantments:
+        - BREACH:4
+      '7':
+        material: ENCHANTED_BOOK
+        buy: 20000
+        sell: 500
+        enchantments:
+        - DENSITY:5
+      '8':
+        material: ENCHANTED_BOOK
+        buy: 10000
+        sell: 40
+        enchantments:
+        - ARROW_FIRE:1
+      '9':
+        material: ENCHANTED_BOOK
+        buy: 3500
+        sell: 500
+        enchantments:
+        - KNOCKBACK:1
+      '10':
+        material: ENCHANTED_BOOK
+        buy: 5000
+        sell: 40
+        enchantments:
+        - MULTISHOT:1
+      '11':
+        material: ENCHANTED_BOOK
+        buy: 4600
+        sell: 500
+        enchantments:
+        - PIERCING:4
+      '12':
+        material: ENCHANTED_BOOK
+        buy: 13000
+        sell: 500
+        enchantments:
+        - ARROW_DAMAGE:5
+      '13':
+        material: ENCHANTED_BOOK
+        buy: 12000
+        sell: 500
+        enchantments:
+        - DAMAGE_ALL:1
+      '14':
+        material: ENCHANTED_BOOK
+        buy: 8000
+        sell: 500
+        enchantments:
+        - DAMAGE_UNDEAD:5
+      '15':
+        material: ENCHANTED_BOOK
+        buy: 6000
+        sell: 500
+        enchantments:
+        - SWIFT_SNEAK:3
+      '16':
+        material: ENCHANTED_BOOK
+        buy: 8000
+        sell: 500
+        enchantments:
+        - DURABILITY:3
+      '17':
+        material: ENCHANTED_BOOK
+        buy: 24000
+        sell: 500
+        enchantments:
+        - WIND_BURST:3

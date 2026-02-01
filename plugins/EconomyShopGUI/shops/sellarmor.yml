@@ -1,0 +1,92 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: leather_helmet
+        buy: 15
+        sell: 0.2
+      '2':
+        material: leather_chestplate
+        buy: 16
+        sell: 0.2
+      '3':
+        material: leather_leggings
+        buy: 14
+        sell: 0.2
+      '4':
+        material: leather_boots
+        buy: 12
+        sell: 0.2
+      '5':
+        material: armor_stand
+        buy: 25
+        sell: 1
+      '6':
+        material: iron_helmet
+        buy: -1
+        sell: 6.9
+      '7':
+        material: iron_chestplate
+        buy: -1
+        sell: 11.04
+      '8':
+        material: iron_leggings
+        buy: -1
+        sell: 9.66
+      '9':
+        material: iron_boots
+        buy: -1
+        sell: 5.52
+      '10':
+        material: gold_helmet
+        buy: -1
+        sell: 10.35
+      '11':
+        material: gold_chestplate
+        buy: -1
+        sell: 16.56
+      '12':
+        material: gold_leggings
+        buy: -1
+        sell: 14.49
+      '13':
+        material: gold_boots
+        buy: -1
+        sell: 8.28
+      '14':
+        material: wolf_armor
+        buy: 200
+        sell: 20
+      '15':
+        material: diamond_helmet
+        buy: -1
+        sell: 65.65
+      '16':
+        material: diamond_chestplate
+        buy: -1
+        sell: 105.04
+      '17':
+        material: diamond_leggings
+        buy: -1
+        sell: 91.91
+      '18':
+        material: diamond_boots
+        buy: -1
+        sell: 52.52
+      '19':
+        material: netherite_helmet
+        buy: -1
+        sell: 657.56
+      '20':
+        material: netherite_chestplate
+        buy: -1
+        sell: 696.95
+      '21':
+        material: netherite_leggings
+        buy: -1
+        sell: 683.82
+      '22':
+        material: netherite_boots
+        buy: -1
+        sell: 644.43
+  

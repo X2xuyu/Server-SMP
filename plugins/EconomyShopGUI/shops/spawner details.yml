@@ -1,0 +1,39 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: leather
+        buy: 50
+        sell: 0.75
+      '2':
+        material: beef
+        buy: 
+        sell: 0.25
+      '3':
+        material: rotten_flesh
+        buy: 5
+        sell: 3
+      '4':
+        material: spider_eye
+        buy: 6
+        sell: 1.5
+      '5':
+        material: string
+        buy: 10
+        sell: 0.35
+      '6':
+        material: bone
+        buy: 15
+        sell: 1
+      '7':
+        material: arrow
+        buy: 10
+        sell: 0.75
+      '8':
+        material: blaze_rod
+        buy: 20
+        sell: 2
+      '9':
+        material: GUNPOWDER
+        buy: 10
+        sell: 2

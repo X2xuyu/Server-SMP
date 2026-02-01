@@ -1,0 +1,38 @@
+## Scoreboards (https://github.com/r4g3baby/SimpleScore/blob/main/src/main/resources/scoreboards.yml)
+# This is where you create your scoreboards to be displayed.
+
+# You can create a scoreboard by creating a node with the scoreboard name and then specifying a default "updateTime",
+#  "renderTime" and a list of "titles" and "scores".
+#
+# "updateTime": the default update time in ticks (optional and defaults to 20 ticks/1 second)
+#  This controls how long it takes for each frame to stay on the scoreboard
+# "renderTime": the default render time in ticks (optional and defaults to 10 ticks/0.5 seconds)
+#  This controls how long it takes before rendering each frame, placeholders and variables will only get applied each
+#   time a render occurs (the lower the render time is the heavier it will be on server performance)
+# "titles": text to display or a list of frames*
+# "scores": the score number/value followed by the text to display or a list of frames* or a map with the "conditions"
+#  (list of conditions*) and "frames" (list of frames*) keys
+#
+# *conditions: can be prefixed with a "!" (exclamation mark) to negate the condition
+# *frames: is a list of strings or list of maps with the "text" (text to display),
+#  "update" (time to stay visible, optional and defaults to "updateTime") and
+#  "render" (time to wait before rendering, optional and defaults to "renderTime") keys
+#
+# Check out the examples bellow for more information.
+
+# This is a simple scoreboard with only the top and bottom lines animated
+simple:
+  titles: '&#757575&lHUMDUM&#03a9f4&lSMP'
+  scores:
+    12: ''
+    11: '   &7⌚ %localtime_time_MMM d, Y%'
+    10: ''
+    9: '&#259b24%player%:'
+    8: '&a&l$ &fᴍᴏɴᴇʏ: &a$%vault_eco_balance%'
+    7: ''
+    6: '&#3DE0B8&l✔ &fᴏɴʟɪɴᴇ: &#3DE0B8%server_online%'
+    5: '&#3D65E0🌊 &fᴘʟᴀʏᴛɪᴍᴇ: &#3D65E0%statistic_time_played:hours% Hours'
+    4: '&c⚔ &fᴋɪʟʟꜱ: &c%statistic_player_kills%'
+    3: '&4☠ &fᴅᴇᴀᴛʜꜱ: &4%statistic_deaths%'
+    2: ''
+    1: '&7⛏ 26.101.33.16'

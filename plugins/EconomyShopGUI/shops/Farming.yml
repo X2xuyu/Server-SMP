@@ -1,0 +1,47 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BAMBOO
+        buy: 25
+        sell: 5
+      '2':
+        material: SUGAR_CANE
+        buy: 28
+        sell: 8
+      '3':
+        material: SEA_PICKLE
+        buy: 35
+        sell: 13
+      '4':
+        material: KELP
+        buy: 18
+        sell: 4.5
+      '5':
+        material: CARROT
+        buy: 36
+        sell: 12
+      '6':
+        material: MELON
+        buy: 46
+        sell: 14
+      '7':
+        material: MELON_SLICE
+        buy: 8
+        sell: 2
+      '8':
+        material: NETHER_WART
+        buy: 15
+        sell: 3
+      '9':
+        material: POTATO
+        buy: 45
+        sell: 10
+      '10':
+        material: PUMPKIN
+        buy: 15
+        sell: 4.5
+      '11':
+        material: HONEY_BLOCK
+        buy: 750
+        sell: 200

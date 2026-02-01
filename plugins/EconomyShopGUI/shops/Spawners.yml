@@ -1,0 +1,38 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: SPAWNER
+        spawnertype: Skeleton
+        buy: 3600
+        sell: -1
+      '2':
+        material: SPAWNER
+        spawnertype: ZOMBIE
+        buy: 5000
+        sell: -1
+      '3':
+        material: SPAWNER
+        spawnertype: SPIDER
+        buy: 5500
+        sell: -1
+      '4':
+        material: SPAWNER
+        spawnertype: COW 
+        buy: 6000
+        sell: -1
+      '5':
+        material: SPAWNER
+        spawnertype: CREEPER
+        buy: 7000
+        sell: -1
+      '6':
+        material: SPAWNER
+        spawnertype: BLAZE
+        buy: 12500
+        sell: -1
+      '7':
+        material: SPAWNER
+        spawnertype: IRON_GOLEM
+        buy: 33000
+        sell: -1

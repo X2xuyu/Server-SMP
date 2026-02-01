@@ -1,0 +1,51 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: obsidian
+        buy: 100
+        sell: 1.32
+      '2':
+        material: end_crystal
+        buy: 300
+        sell: 2.5
+      '3':
+        material: RESPAWN_ANCHOR
+        buy: 2000
+        sell: 10
+      '4':
+        material: glowstone
+        buy: 150
+        sell: 5
+      '5':
+        material: TOTEM_OF_UNDYING
+        buy: 1000
+        sell: 245
+      '6':
+        material: ender_pearl
+        buy: 75
+        sell: 10
+      '7':
+        material: golden_apple
+        buy: 300
+        sell: 5
+      '8':
+        material: EXPERIENCE_BOTTLE
+        buy: 120
+        sell: 65
+      '9':
+        material: shield
+        buy: 895
+        sell: 1.58
+      '10':
+        material: bow
+        buy: 150
+        sell: 1.58
+      '11':
+        material: crossbow
+        buy: 1000
+        sell: 2
+      '12':
+        material: cobweb
+        buy: 1000
+        sell: 20

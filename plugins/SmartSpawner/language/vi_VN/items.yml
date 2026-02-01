@@ -1,0 +1,197 @@
+# Language file version - Do not modify this value
+language_version: 1.5.8
+
+# ═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+#   ███████╗███╗   ███╗ █████╗ ██████╗ ████████╗███████╗██████╗  █████╗ ██╗    ██╗███╗   ██╗███████╗██████╗
+#   ██╔════╝████╗ ████║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██║    ██║████╗  ██║██╔════╝██╔══██╗
+#   ███████╗██╔████╔██║███████║██████╔╝   ██║   ███████╗██████╔╝███████║██║ █╗ ██║██╔██╗ ██║█████╗  ██████╔╝
+#   ╚════██║██║╚██╔╝██║██╔══██║██╔══██╗   ██║   ╚════██║██╔═══╝ ██╔══██║██║███╗██║██║╚██╗██║██╔══╝  ██╔══██╗
+#   ███████║██║ ╚═╝ ██║██║  ██║██║  ██║   ██║   ███████║██║     ██║  ██║╚███╔███╔╝██║ ╚████║███████╗██║  ██║
+#   ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+# ═══════════════════════════════════════════════════════════════════════════════════════════════════════════
+#
+#   NOTE: Text placeholders in small caps (ᴇxᴀᴍᴘʟᴇ) will be automatically
+#   converted to small caps in-game. Numeric placeholders like {amount} or
+#   {chance} will remain as-is because they are not affected by the small caps.
+
+custom_item:
+  # Appearance of smart spawner items in inventory and tooltips
+  spawner:
+    name: '&#a782ecʟồɴɢ sᴘᴀᴡɴ %ᴇɴᴛɪᴛʏ%'
+    loot_items: '  &#e6e6fa•  %amount% %ɪᴛᴇᴍ_ɴᴀᴍᴇ% &#b19cd9(%chance%%)'
+    loot_items_empty: '  &#e6e6fa• ᴋʜôɴɢ ᴄó ᴠậᴛ ᴘʜẩᴍ'
+    lore:
+    - ''
+    - '&#9370db◈ &#8a2be2ᴛʜôɴɢ ᴛɪɴ:'
+    - '  &#e6e6fa•  ᴋɪɴʜ ɴɢʜɪệᴍ: &#b19cd9%exp%'
+    - ''
+    - '&#9370db◈ &#8a2be2ᴠậᴛ ᴘʜẩᴍ:'
+    - '%loot_items%'
+    - ''
+  
+  # Appearance of item spawner items in inventory and tooltips
+  item_spawner:
+    name: '&#3498dbꜱᴘᴀᴡɴᴇʀ {ᴇɴᴛɪᴛʏ}'
+    loot_items: '  &#ecf0f1•  {amount} {ɪᴛᴇᴍ_ɴᴀᴍᴇ} &#3498db({chance}%)'
+    loot_items_empty: '  &#ecf0f1•  ᴋʜôɴɢ ᴄó ᴠậᴛ ᴘʜẩᴍ'
+    lore:
+    - ''
+    - '&#3498db◈ &#3498dbᴛʜôɴɢ ᴛɪɴ:'
+    - '  &#ecf0f1•  ᴋɪɴʜ ɴɢʜɪệᴍ: &#3498db{exp}'
+    - ''
+    - '&#3498db◈ &#3498dbᴠậᴛ ᴘʜẩᴍ:'
+    - '{loot_items}'
+    - ''
+  
+  # Appearance of vanilla spawner items in inventory and tooltips
+  # Available placeholders: {entity}, {ᴇɴᴛɪᴛʏ}
+  # Delete this section if you don't want to use custom vanilla spawners name and lore
+  vanilla_spawner:
+    name: ''
+
+# Item display names
+item:
+  # These names are used when displaying potential drops in spawner tooltips
+  # For multilingual support, replace with corresponding names from your language
+
+    # Animal & Fish Drops
+  LEATHER:
+    name: Da
+  STRING:
+    name: Sợi chỉ
+  FEATHER:
+    name: Lông
+  CHICKEN:
+    name: Thịt Gà Sống
+  COD:
+    name: Cá Tuyết Sống
+  SALMON:
+    name: Cá Hồi Sống
+  BEEF:
+    name: Thịt Bò Sống
+  PORKCHOP:
+    name: Thịt Heo Sống
+  MUTTON:
+    name: Thịt Cừu Sống
+  RABBIT:
+    name: Thịt Thỏ Sống
+  WHITE_WOOL:
+    name: Len Trắng
+  RABBIT_HIDE:
+    name: Da Thỏ
+  RABBIT_FOOT:
+    name: Chân Thỏ
+  PUFFERFISH:
+    name: Cá Nóc
+  TROPICAL_FISH:
+    name: Cá Nhiệt Đới
+  
+  # Hostile Mob Drops
+  BONE:
+    name: Xương
+  BONE_MEAL:
+    name: Bột Xương
+  ARROW:
+    name: Mũi Tên
+  SPIDER_EYE:
+    name: Mắt Nhện
+  GUNPOWDER:
+    name: Thuốc Súng
+  ROTTEN_FLESH:
+    name: Thịt Thối
+  ENDER_PEARL:
+    name: Ngọc Ender
+  GHAST_TEAR:
+    name: Nước Mắt Ghast
+  MAGMA_CREAM:
+    name: Kem Dung Nham
+  PHANTOM_MEMBRANE:
+    name: Màng Da Phantom
+  SHULKER_SHELL:
+    name: Vỏ Shulker
+  SLIME_BALL:
+    name: Bóng Slime
+  BLAZE_ROD:
+    name: Que Lửa
+  BREEZE_ROD:
+    name: Que Gió
+  WITHER_SKELETON_SKULL:
+    name: Đầu Xương Khô Héo
+  
+  # Weapons & Tools
+  BOW:
+    name: Cung
+  CROSSBOW:
+    name: Nỏ
+  GOLDEN_SWORD:
+    name: Kiếm Vàng
+  GOLDEN_AXE:
+    name: Rìu Vàng
+  STONE_SWORD:
+    name: Kiếm Đá
+  IRON_AXE:
+    name: Rìu Sắt
+  TRIDENT:
+    name: Cây Đinh Ba
+  TIPPED_ARROW:
+    name: Mũi Tên Có Hiệu Ứng
+  TOTEM_OF_UNDYING:
+    name: Vật Tổ Trường Sinh
+  SADDLE:
+    name: Yên Ngựa
+  
+  # Materials & Resources
+  COPPER_INGOT:
+    name: Thỏi Đồng
+  PRISMARINE_SHARD:
+    name: Mảnh Lăng Trụ Biển
+  PRISMARINE_CRYSTALS:
+    name: Tinh Thể Lăng Trụ Biển
+  WET_SPONGE:
+    name: Bọt Biển Ướt
+  EMERALD:
+    name: Ngọc Lục Bảo
+  IRON_INGOT:
+    name: Phôi Sắt
+  GOLD_NUGGET:
+    name: Hạt Vàng
+  GOLD_INGOT:
+    name: Phôi Vàng
+  REDSTONE:
+    name: Bột Đá Đỏ
+  GLOWSTONE_DUST:
+    name: Bột Đá Phát Sáng
+  COAL:
+    name: Than
+  
+  # Miscellaneous Items
+  GLOW_INK_SAC:
+    name: Túi Mực Phát Sáng
+  INK_SAC:
+    name: Túi Mực
+  CARROT:
+    name: Cà Rốt
+  POTATO:
+    name: Khoai Tây
+  POPPY:
+    name: Hoa Anh Túc
+  SNOWBALL:
+    name: Cầu Tuyết
+  SEAGRASS:
+    name: Cỏ Biển
+  SUGAR:
+    name: Đường
+  GLASS_BOTTLE:
+    name: Chai Thủy Tinh
+  STICK:
+    name: Gậy
+  SCULK_CATALYST:
+    name: Khối xúc tác Sculk
+  TIDE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    name: Trang trí giáp Thủy Triều
+  DIAMOND:
+    name: ᴋɪᴍ ᴄươɴɢ
+  NETHER_STAR:
+    name: ɴɢôɪ ꜱᴀᴏ ᴅịᴀ ɴɢụᴄ
+  NETHERITE_INGOT:
+    name: ᴛʜỏɪ ɴᴇᴛʜᴇʀɪᴛᴇ

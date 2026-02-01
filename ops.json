@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "7ce5dd5d-c970-4c7d-90b7-c30ba9ec80d1",
+    "name": "daxkqueue",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fe881200-fd15-30b5-97ce-bf72b0a00705",
+    "name": "daxk",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "708e9e2b-4f00-35b0-8c66-e24c1deac88a",
+    "name": "daxkqueue",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "667f12f5-d1f4-3fe8-b977-827717bcc8a5",
+    "name": "jziemniaky",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "563eac99-c8a1-3a20-84eb-c47ecdebd01a",
+    "name": "lonza",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "08d2d65b-d6a4-3c14-8bce-160b1f84d118",
+    "name": "Red_Keepers",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

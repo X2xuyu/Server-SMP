@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.60.56.50
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1769965594265
+  login: 1769965382813
+money: '0'
+last-account-name: daxkqueue
+lastlocation:
+  world: e709fc7c-7e37-4f30-833e-b5e1186d54eb
+  world-name: world
+  x: 15.300000011920929
+  y: 84.11650136792812
+  z: 37.83668404220724
+  yaw: 113.27383422851562
+  pitch: 23.827152252197266
+logoutlocation:
+  world: e709fc7c-7e37-4f30-833e-b5e1186d54eb
+  world-name: world
+  x: 0.5
+  y: 90.0
+  z: 25.5
+  yaw: -24.205394744873047
+  pitch: -5.862245559692383

@@ -1,0 +1,39 @@
+
+# LuckPermsGUI Messages
+
+# Restart server for changes to apply
+
+offline-player: '&7[&aLP&f GUI&7]&c[!] &fplease select an online player'
+reload-config: '&7[&aLP&f GUI&7] &freloaded config'
+exit-button: '&cExit'
+back-button: '&cBack'
+
+confirm-menu:
+  menu-title: '&aConfirm'
+  confirm-button: '&a&lConfirm'
+  deny-button: '&c&lDeny'
+
+lpgui:
+  menu-title: '&aLuck&7Perms &eGUI'
+  rank-button: '&cRank &8Menu'
+  track-button: '&aTrack &8Menu'
+  perms-button: '&ePermission &8Menu'
+
+rank:
+  menu-title: '&cRank &8Menu &7: &a%player%'
+  item-lore: '&fWill set &a%player% &fto %prefix%'
+  chat-message: '&7[&aLP&f GUI&7] &fSet &a%player% &fto &a%group_name%'
+
+track:
+  menu-title: '&aTrack &8Menu &7: &a%player%'
+  second-menu-title: '&aTrack &8Menu &7: &a%player%'
+  promote: '&a&lPromote'
+  demote: '&c&lDemote'
+  promote-message: '&7[&aLP&f GUI&7] &fPromoted &a%player% &falong &a%track_name%'
+  demote-message: '&7[&aLP&f GUI&7] &fDemoted &a%player% &falong &a%track_name%'
+
+permissions:
+  menu-title: '&ePermissions &8Menu &7: &a%player%'
+  invalid-page: '&7[&aLP&f GUI&7]&c[!] &fPlease choose a page &e1 - 3'
+  next-page: '&aNext Page'
+  previous-page: '&cPrevious Page'
